@@ -1,0 +1,218 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("../images/image2.jpg"), no-repeat center center fixed;
+    background-size: 100% 100%;
+    min-height: 750px;
+    background-attachment: fixed;
+}
+/* container for header , all sections  */
+.container{
+  width: 75%;
+  overflow:hidden;
+  margin: auto;
+  }
+
+ul {
+    margin:0;
+    padding: 0;
+}
+
+/* start header */
+
+header{
+    background:#007a5a;
+    padding-top: 20px;
+    min-height: 50px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1 {
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header  nav ul li {
+    float: left;
+    display: inline;
+    padding: 0 7px 0 7px ;
+}
+
+header nav  ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header nav  ul li a:hover{
+    color:#ccc;
+    font-weight: bold;
+}
+
+header .active a {
+    color:#002e22;
+    font-weight: bold;
+}
+i.fab {
+   margin: 3px ;
+   color:#002e22;
+ }
+/* end header */
+
+/* -----------------------------------------user details form-----------------------------------------*/
+#login-status {
+  color:#ccc;
+  font-weight: bold;
+}
+
+.name {
+  color: #fff;
+}
+.wrapper {
+  text-align: left;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.form {
+  padding: 10px 20px 20px 20px;
+  width: 375px;
+  height: 20%;
+  background-color: #DEDCDC;
+  box-shadow: 0 0 25px 0 #000;
+  margin-left: 10%;
+  margin-top: 5%;
+  display: inline-block;
+}
+.chart-container{
+  margin-bottom: 5%;
+  padding: 10px 20px 20px 20px;
+  width: 375px;
+  height: 20%;
+  background-color: #DEDCDC;
+  box-shadow: 0 0 25px 0 #000;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.today{
+  float: right;
+  padding: 10px 20px 20px 20px;
+  width: 45%;
+  height: 475px;
+  background-color: #DEDCDC;
+  box-shadow: 0 0 25px 0 #000;
+  margin-right: 10%;
+  margin-top: 5%;
+  display: inline-block;
+}
+
+.today2, .today3{
+  float: right;
+  padding: 10px 20px 20px 20px;
+  width: 45%;
+  height: 350px;
+  background-color: #DEDCDC;
+  box-shadow: 0 0 25px 0 #000;
+  margin-right: 10%;
+  margin-top: 5%;
+  display: none;
+}
+
+#userdata {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#userdata td:nth-child(even){
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#userdata td:nth-child(odd){
+  background-color: #007a5a;
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: #f2f2f2;
+}
+
+#userdata th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.show-onclick, .show-onclik2, .show-onclick3{
+  display: none;
+}
+
+.btn {
+
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 7px 20px;
+    width: 52%;
+    height: 3em;
+    font-size: 0.7em;
+    line-height: 1.0;
+    border-radius: 6px;
+    background-color: #007a5a;
+    border: 2px solid #cccccc;
+    color: #ffffff;
+    display: table;
+    float: center;
+    margin: 20px auto;
+}
+
+.btn-1 {
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 7px 20px;
+    width: 52%;
+    height: 3em;
+    font-size: 0.7em;
+    line-height: 1.0;
+    border-radius: 6px;
+    background-color: #007a5a;
+    border: 2px solid #cccccc;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.form-group input[type=text]{
+  color: gray;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  font-size: 15px;
+  height: 20px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 41%;
+}
+
+.dropdown2{
+  color: gray;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  font-size: 15px;
+  height: 30px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 45%;
+}
