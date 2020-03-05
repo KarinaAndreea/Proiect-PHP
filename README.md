@@ -1,5 +1,5 @@
 # Proiect-PHP
-Proiect realizat pentru laboratorul de Tehnologii Web, Anul 2 in colaborare cu Ana Maria Rosu
+Proiect realizat pentru laboratorul de Tehnologii Web, Anul 2
 
 
 Cerinta:
