@@ -1,5 +1,5 @@
 # Proiect-PHP
-Proiect realizat pentru laboratorul de Tehnologii Web, Anul 2
+Proiect realizat in echipa pentru laboratorul de Tehnologii Web, Anul 2
 
 
 Cerinta:
